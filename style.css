@@ -1,0 +1,79 @@
+div {
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:20px;
+    margin-bottom:15px;
+}
+
+body {
+    background-color: skyblue;
+    position: centered;
+
+}
+h1 {
+    color: blue;
+    font-family: "Helvetica";
+    border-style: inset;
+    font-size:100px;
+}
+h3 {
+    font-family: Arial;
+    font-color: red;
+    position: relative;
+    animation-name: text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes text {
+    16.6% {top: 0px; color: red;}
+    32.2% {top: 0px; color: blue;}
+    49.8% {top: 0px; color: hotpink;}
+    66.4% {top: 0px; color: lightgreen;}
+    83% {top: 0px; color: yellow;}
+    100% {top: 0px; color: red;}
+}
+.square {
+    height: 50px;
+    width: 500px;
+    background-color: #555;
+    position: centered;
+}
+.square2 {
+    height: 50px;
+    width: 500px;
+    background-color: #335;
+    position: relative;
+    top: 20%;
+    bottom: 100%;
+    width: 88.5%;
+}
+.button1 {
+    cursor: pointer;
+    onclick: "AboutMe.html";
+}
+.button2 {
+    cursor: pointer;
+    onclick: "Classes.html";
+}
+.button3 {
+    cursor: pointer;
+    onclick: "CS-II/Essays/Fingerprints.html";
+}
+.button4 {
+    cursor: pointer;
+    onclick: "CS-II/Essays/AI%20Sentience.html";
+}
+.button5 {
+    cursor: pointer;
+    onclick: "CS-II/Projects/OptimalSorting.html";
+}
+.button6 {
+    cursor: pointer;
+    onclick: "CS-II/Projects/BusinessISP/index.html";
+}
+h2 {
+    color: cyan;
+    font-size: 20px;
+    font-family: Trebuchet MS;
+}
