@@ -6,19 +6,15 @@ div {
 }
 
 body {
-    background-color: skyblue;
-    position: centered;
-
-}
-h1 {
-    color: blue;
-    font-family: "Helvetica";
-    border-style: inset;
-    font-size:100px;
+    background-image: url('data:image/jpeg;base64,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');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 h3 {
     font-family: Arial;
     font-color: red;
+    font-size: 50px;
     position: relative;
     animation-name: text;
     animation-duration: 3s;
@@ -34,10 +30,18 @@ h3 {
     100% {top: 0px; color: red;}
 }
 .square {
-    height: 50px;
+    height: 70px;
     width: 500px;
     background-color: #555;
     position: centered;
+    animation-name: shape;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: fowards;
+}
+@keyframes shape {
+    50% {top: 0px; border-radius: 100px;}
+    100% {top: 0px; border-radius: 0px;}
 }
 .square2 {
     height: 50px;
@@ -48,29 +52,62 @@ h3 {
     bottom: 100%;
     width: 88.5%;
 }
+.button {
+    color: blue;
+    font-family: "Helvetica";
+    border-style: inset;
+    font-size:100px;
+    padding: 10px 120px;
+    margin: 2px 1px;
+    transition-duration: 0.4s;
+}
 .button1 {
     cursor: pointer;
     onclick: "AboutMe.html";
+}
+.button1:hover {
+    background-color: #37D2FF;
+    color: white;
 }
 .button2 {
     cursor: pointer;
     onclick: "Classes.html";
 }
+.button2:hover {
+    background-color: #37D2FF;
+    color: white;
+}
 .button3 {
     cursor: pointer;
     onclick: "CS-II/Essays/Fingerprints.html";
+}
+.button3:hover {
+    background-color: #37D2FF;
+    color: white;
 }
 .button4 {
     cursor: pointer;
     onclick: "CS-II/Essays/AI%20Sentience.html";
 }
+.button4:hover {
+    background-color: #37D2FF;
+    color: white;
+}   
 .button5 {
     cursor: pointer;
     onclick: "CS-II/Projects/OptimalSorting.html";
 }
+.button5:hover {
+    background-color: #37D2FF;
+    color: white;
+}
 .button6 {
     cursor: pointer;
     onclick: "CS-II/Projects/BusinessISP/index.html";
+}
+.button6:hover {
+    background-color: #37D2FF;
+    color: white;
 }
 h2 {
     color: cyan;
