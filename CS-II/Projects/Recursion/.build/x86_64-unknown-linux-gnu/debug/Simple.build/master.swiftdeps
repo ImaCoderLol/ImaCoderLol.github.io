@@ -1,0 +1,6 @@
+version: "Swift version 5.6.1 (swift-5.6.1-RELEASE)"
+options: "bb4a94a12ff7ec22b2e1f1ade65daf121ef7715d8d60c7fdd4f1dc513cb662d4"
+build_start_time: [1667412110, 447468996]
+build_end_time: [1667412110, 590935945]
+inputs:
+  "/home/david-ortega/Digital Portfolio/CS-II/Projects/Recursion/main.swift": [1667412107, 131827354]

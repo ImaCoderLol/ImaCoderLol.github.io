@@ -57,57 +57,64 @@ h3 {
     font-family: "Helvetica";
     border-style: inset;
     font-size:80px;
-    padding: 10px 50px;
-    margin: 20px 20px;
+    padding: 1px 10px;
+    margin: 200px 20px;
     transition-duration: 0.4s;
+    animation-name: button;
+    animation-duration: 2.2s;
+    animation-timing-function: ease;
+}
+@keyframes button {
+    from {bottom: 20px;}
+    to {bottom: 0px;}
 }
 .button1 {
     cursor: pointer;
     onclick: "AboutMe.html";
 }
 .button1:hover {
-    background-color: #37D2FF;
-    color: white;
+    background-color: #8A33FF;
+    color: #0087FF;
 }
 .button2 {
     cursor: pointer;
     onclick: "Classes.html";
 }
 .button2:hover {
-    background-color: #37D2FF;
-    color: white;
+    background-color: #8A33FF;
+    color: #0087FF;
 }
 .button3 {
     cursor: pointer;
     onclick: "CS-II/Essays/Fingerprints.html";
 }
 .button3:hover {
-    background-color: #37D2FF;
-    color: white;
+    background-color: #8A33FF;
+    color: #0087FF
 }
 .button4 {
     cursor: pointer;
     onclick: "CS-II/Essays/AI%20Sentience.html";
 }
 .button4:hover {
-    background-color: #37D2FF;
-    color: white;
+    background-color: #8A33FF;
+    color: #0087FF;
 }   
 .button5 {
     cursor: pointer;
     onclick: "CS-II/Projects/OptimalSorting.html";
 }
 .button5:hover {
-    background-color: #37D2FF;
-    color: white;
+    background-color: #8A33FF;
+    color: #0087FF;
 }
 .button6 {
     cursor: pointer;
     onclick: "CS-II/Projects/BusinessISP/index.html";
 }
 .button6:hover {
-    background-color: #37D2FF;
-    color: white;
+    background-color: #8A33FF;
+    color: #0087FF;
 }
 h2 {
     color: cyan;
