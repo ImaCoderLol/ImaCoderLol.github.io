@@ -1,0 +1,48 @@
+div {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: #fff1f0;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-color: black;
+    font-size: 50px;
+    position: centered;
+}
+
+p {
+    font-family: Arial;
+    font-color: darkgray;
+    font-size: 20px;
+    margin-right: 500px;
+}
+.border1 {
+    width: fixed;
+    height: 20px;
+    background-color:grey;
+}
+.borderbutton {
+    background-color: grey;
+    color: white;
+    padding: 0px 10px;
+    margin: 0px 0px;
+    text-align: center;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 20px;
+    transition-duration: 0.8s;
+}
+.borderbutton1 {
+    color: white;
+    background-color: grey;
+}
+.borderbutton1:hover {
+    background-color: #2E2E2E;
+}
+

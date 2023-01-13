@@ -17,17 +17,17 @@ h3 {
     font-size: 50px;
     position: relative;
     animation-name: text;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
 }
 @keyframes text {
     16.6% {top: 0px; color: red;}
-    32.2% {top: 0px; color: blue;}
-    49.8% {top: 0px; color: hotpink;}
-    66.4% {top: 0px; color: lightgreen;}
-    83% {top: 0px; color: yellow;}
-    100% {top: 0px; color: red;}
+    32.2% {top: 0px; color: orange;}
+    49.8% {top: 0px; color: yellow;}
+    66.4% {top: 0px; color: green;}
+    83% {top: 0px; color: blue;}
+    100% {top: 0px; color: hotpink;}
 }
 .square {
     height: 70px;
@@ -113,6 +113,30 @@ h3 {
     onclick: "CS-II/Projects/BusinessISP/index.html";
 }
 .button6:hover {
+    background-color: #8A33FF;
+    color: #0087FF;
+}
+.button7 {
+    cursor: pointer;
+    onclick: "CS-II/Projects/ISP/index.html";
+}
+.button7:hover {
+    background-color: #8A33FF;
+    color: #0087FF;
+}
+.button8 {
+    cursor: pointer;
+    onclick: "CS-II/Essays/DecisionMakingDraft.html";
+}
+.button8:hover {
+    background-color: #8A33FF;
+    color: #0087FF;
+}
+.button9 {
+    cursor: pointer;
+    onclick: "CS-II/Essays/Decision Making.html";
+}
+.button9:hover {
     background-color: #8A33FF;
     color: #0087FF;
 }
