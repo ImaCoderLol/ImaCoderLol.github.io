@@ -6,7 +6,7 @@ div {
 }
 
 body {
-    background-color: #DDFFEB;
+    background-color: #1E1E1E;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -23,11 +23,11 @@ h3 {
 }
 @keyframes text {
     16.6% {top: 0px; color: white;}
-    32.2% {top: 0px; color: #DDFFEB;}
-    49.8% {top: 0px; color: aqua;}
+    32.2% {top: 0px; color: #1E1E1E;}
+    49.8% {top: 0px; color: #00FFFB;}
     66.4% {top: 0px; color: white;}
-    83% {top: 0px; color: #DDFFEB;}
-    100% {top: 0px; color: aqua;}
+    83% {top: 0px; color: #1E1E1E;}
+    100% {top: 0px; color: #00FFFB;}
 }
 .square {
     height: 70px;
@@ -46,14 +46,14 @@ h3 {
 .square2 {
     height: 50px;
     width: 500px;
-    background-color: #CEECDA;
+    background-color: #111111;
     position: relative;
     top: 20%;
     bottom: 100%;
     width: 88.5%;
 }
 .button {
-    color: #3CD8DF;
+    color: #00FFFB;
     font-family: "Trebuchet MS";
     border-style: inset;
     font-size:80px;
@@ -73,75 +73,75 @@ h3 {
     onclick: "AboutMe.html";
 }
 .button1:hover {
-    background-color: #37BBC1;
-    color: #DDFFEB;
+    background-color: #5D5D5D;
+    color: #10FFFB;
 }
 .button2 {
     cursor: pointer;
     onclick: "Classes.html";
 }
 .button2:hover {
-    background-color: #37BBC1;
-    color: #DDFFEB;
+    background-color: #5D5D5D;
+    color: #10FFFB;
 }
 .button3 {
     cursor: pointer;
     onclick: "CS-II/Essays/Fingerprints.html";
 }
 .button3:hover {
-    background-color: #37BBC1;
-    color: #DDFFEB;
+    background-color: #5D5D5D;
+    color: #10FFFB;
 }
 .button4 {
     cursor: pointer;
     onclick: "CS-II/Essays/AI%20Sentience.html";
 }
 .button4:hover {
-    background-color: #37BBC1;
-    color: #DDFFEB;
+    background-color: #5D5D5D;
+    color: #10FFFB;
 }   
 .button5 {
     cursor: pointer;
     onclick: "CS-II/Projects/OptimalSorting.html";
 }
 .button5:hover {
-    background-color: #37BBC1;
-    color: #DDFFEB;
+    background-color: #5D5D5D;
+    color: #10FFFB;
 }
 .button6 {
     cursor: pointer;
     onclick: "CS-II/Projects/BusinessISP/index.html";
 }
 .button6:hover {
-    background-color: #37BBC1;
-    color: #DDFFEB;
+    background-color: #5D5D5D;
+    color: #10FFFB;
 }
 .button7 {
     cursor: pointer;
     onclick: "CS-II/Projects/ISP/index.html";
 }
 .button7:hover {
-    background-color: #37BBC1;
-    color: #DDFFEB;
+    background-color: #5D5D5D;
+    color: #10FFFB;
 }
 .button8 {
     cursor: pointer;
     onclick: "CS-II/Essays/DecisionMakingDraft.html";
 }
 .button8:hover {
-    background-color: #37BBC1;
-    color: #DDFFEB;
+    background-color: #5D5D5D;
+    color: #10FFFB;
 }
 .button9 {
     cursor: pointer;
     onclick: "CS-II/Essays/Decision Making.html";
 }
 .button9:hover {
-    background-color: #37BBC1;
-    color: #DDFFEB;
+    background-color: #5D5D5D;
+    color: #10FFFB;
 }
 h2 {
-    color: #37BBC1;
+    color: #10FFFB;
     font-size: 20px;
     font-family: Trebuchet MS;
 }
