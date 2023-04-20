@@ -29,6 +29,29 @@ h3 {
     83% {top: 0px; color: #1E1E1E;}
     100% {top: 0px; color: #00FFFB;}
 }
+.border1 {
+    width: fixed;
+    height: 20px;
+    background-color:grey;
+}
+.borderbutton {
+    background-color: grey;
+    color: white;
+    padding: 0px 10px;
+    margin: 0px 0px;
+    text-align: center;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 20px;
+    transition-duration: 0.8s;
+}
+.borderbutton1 {
+    color: white;
+    background-color: grey;
+}
+.borderbutton1:hover {
+    background-color: #2E2E2E;
+}
 .square {
     height: 70px;
     width: 500px;
